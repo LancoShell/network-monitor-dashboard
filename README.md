@@ -1,7 +1,5 @@
 ## Advanced Network Monitoring Dashboard
 
-Descrizione 
-
 Questa applicazione web fornisce un cruscotto in tempo reale per il monitoraggio del traffico di rete e il rilevamento automatico di anomalie sui dati raccolti.
 Utilizza Python Flask per il backend, Flask-SocketIO per la comunicazione WebSocket in tempo reale, e Chart.js per la visualizzazione frontend. 
 
@@ -32,7 +30,7 @@ Architettura scalabile per futuri miglioramenti (es. ML, DB)
 
 1) Clona la repository:
 ```bash
-git clone https://github.com/tuo-username/network_monitor_dashboard.git
+git clone https://github.com/LancoShell/network-monitor-dashboard.git
 cd network_monitor_dashboard
 ```
 
@@ -53,19 +51,20 @@ Avvia il server Flask con:
 python app.py
 ```
 
-Apri il browser e visita:
+## Apri il browser e visita:
  ```bash
 http://localhost:5000/
 ```
-Vedrai una dashboard con tre grafici che mostrano:
+--- 
+## Vedrai una dashboard con tre grafici che mostrano:
 
-Bytes inviati e ricevuti al secondo
+-Bytes inviati e ricevuti al secondo
 
-Pacchetti inviati e ricevuti al secondo
+-Pacchetti inviati e ricevuti al secondo
 
-Errori di rete in ingresso e uscita
+-Errori di rete in ingresso e uscita
 
-Sotto ogni grafico appariranno alert colorati se viene rilevata un’anomalia.
+-Sotto ogni grafico appariranno alert colorati se viene rilevata un’anomalia.
 
-Autore: https//lancohacker.com | info@lancohacker.com
+Autore: https://lancohacker.com | info@lancohacker.com
 
