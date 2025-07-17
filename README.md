@@ -17,13 +17,20 @@ Alert visivi immediati su anomalie rilevate
 Architettura scalabile per futuri miglioramenti (es. ML, DB)
 
 ## Tecnologie usate
--Python 3.x
+-Python 3.x 
+
 -Flask
+
 -Flask-SocketIO
+
 -psutil (per stats rete)
+
 -eventlet (per WebSocket asincroni)
+
 -numpy (per statistiche)
+
 -Chart.js (grafici frontend)
+
 -JavaScript, HTML, CSS
 
 ## Installazione:
@@ -65,6 +72,8 @@ http://localhost:5000/
 -Errori di rete in ingresso e uscita
 
 -Sotto ogni grafico appariranno alert colorati se viene rilevata un’anomalia.
+
+---
 
 Autore: https://lancohacker.com | info@lancohacker.com
 
