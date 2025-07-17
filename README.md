@@ -16,6 +16,8 @@ Alert visivi immediati su anomalie rilevate
 
 Architettura scalabile per futuri miglioramenti (es. ML, DB)
 
+---
+
 ## Tecnologie usate
 -Python 3.x 
 
@@ -32,6 +34,8 @@ Architettura scalabile per futuri miglioramenti (es. ML, DB)
 -Chart.js (grafici frontend)
 
 -JavaScript, HTML, CSS
+
+---
 
 ## Installazione:
 
