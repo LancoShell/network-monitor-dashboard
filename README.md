@@ -1,37 +1,25 @@
-Advanced Network Monitoring Dashboard
+## Advanced Network Monitoring Dashboard
 Descrizione
 Questa applicazione web fornisce un cruscotto in tempo reale per il monitoraggio del traffico di rete e il rilevamento automatico di anomalie sui dati raccolti.
 Utilizza Python Flask per il backend, Flask-SocketIO per la comunicazione WebSocket in tempo reale, e Chart.js per la visualizzazione frontend.
-
-Funzionalità principali
-Monitoraggio del traffico di rete in ingresso e uscita (bytes e pacchetti)
-
-Monitoraggio degli errori di rete in ingresso e uscita
-
-Rilevamento semplice di anomalie basato su soglie dinamiche (media + 2 deviazioni standard)
-
-Visualizzazione in tempo reale con grafici interattivi
-
-Alert visivi immediati su anomalie rilevate
-
-Architettura scalabile per futuri miglioramenti (es. ML, DB)
-
-Tecnologie usate
-Python 3.x
-
-Flask
-
-Flask-SocketIO
-
-psutil (per stats rete)
-
-eventlet (per WebSocket asincroni)
-
-numpy (per statistiche)
-
-Chart.js (grafici frontend)
-
-JavaScript, HTML, CSS
+---
+## Funzionalità principali
+-Monitoraggio del traffico di rete in ingresso e uscita (bytes e pacchetti)
+-Monitoraggio degli errori di rete in ingresso e uscita
+-Rilevamento semplice di anomalie basato su soglie dinamiche (media + 2 deviazioni standard)
+-Visualizzazione in tempo reale con grafici interattivi
+-Alert visivi immediati su anomalie rilevate
+-Architettura scalabile per futuri miglioramenti (es. ML, DB)
+---
+## Tecnologie usate
+-Python 3.x
+-Flask
+-Flask-SocketIO
+-psutil (per stats rete)
+-eventlet (per WebSocket asincroni)
+-numpy (per statistiche)
+-Chart.js (grafici frontend)
+-JavaScript, HTML, CSS
 
 ## Installazione:
 
