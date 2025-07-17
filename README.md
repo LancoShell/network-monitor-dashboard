@@ -36,32 +36,32 @@ JavaScript, HTML, CSS
 ## Installazione:
 
 1) Clona la repository:
-'''bash
+```bash
 git clone https://github.com/tuo-username/network_monitor_dashboard.git
 cd network_monitor_dashboard
-'''
+```
 
 2) Crea e attiva un ambiente virtuale (opzionale ma consigliato):
- '''bash
+ ```bash
 python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-'''
+```
 3) Installa le dipendenze:
- '''bash
+ ```bash
 pip install -r requirements.txt
-'''
+```
 
 ## Uso
 Avvia il server Flask con:
- '''bash
+ ```bash
 python app.py
-'''
+```
 
 Apri il browser e visita:
- '''bash
+ ```bash
 http://localhost:5000/
-'''
+```
 Vedrai una dashboard con tre grafici che mostrano:
 
 Bytes inviati e ricevuti al secondo
